@@ -39,7 +39,7 @@ export default function Contact() {
                       </div>
                       <div>
                         <h4 className="text-base font-semibold text-black mb-0.5">Phone</h4>
-                        <p className="text-sm text-gray-600">+1 (555) 123-4567</p>
+                        <p className="text-sm text-gray-600">+123-4567890</p>
                       </div>
                     </div>
 
@@ -51,7 +51,7 @@ export default function Contact() {
                       </div>
                       <div>
                         <h4 className="text-base font-semibold text-black mb-0.5">Email</h4>
-                        <p className="text-sm text-gray-600">hello@company.com</p>
+                        <p className="text-sm text-gray-600">ahmed@gmail.com</p>
                       </div>
                     </div>
 
@@ -64,7 +64,7 @@ export default function Contact() {
                       </div>
                       <div>
                         <h4 className="text-base font-semibold text-black mb-0.5">Office</h4>
-                        <p className="text-sm text-gray-600">123 Business Ave, Suite 100<br />New York, NY 10001</p>
+                        <p className="text-sm text-gray-600">Damietta, Egypt</p>
                       </div>
                     </div>
 
@@ -76,7 +76,7 @@ export default function Contact() {
                       </div>
                       <div>
                         <h4 className="text-base font-semibold text-black mb-0.5">Business Hours</h4>
-                        <p className="text-sm text-gray-600">Mon - Fri: 9:00 AM - 6:00 PM<br />Sat: 10:00 AM - 4:00 PM</p>
+                        <p className="text-sm text-gray-600">Sun - Thu</p>
                       </div>
                     </div>
 
