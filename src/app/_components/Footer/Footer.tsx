@@ -30,17 +30,17 @@ export default function Footer() {
           <div className="space-y-2 text-sm">
             <div className="flex items-center gap-2">
               <MapPin size={16} className="text-black" />
-              <span>123 Trend Street, Cairo</span>
+              <span>Damietta</span>
             </div>
 
             <div className="flex items-center gap-2">
               <Phone size={16} className="text-black" />
-              <span>+20 100 123 4567</span>
+              <span>+20 1012178349</span>
             </div>
 
             <div className="flex items-center gap-2">
               <Mail size={16} className="text-black" />
-              <span>support@trendstore.com</span>
+              <span>ahmed@gmail.com</span>
             </div>
           </div>
         </div>
