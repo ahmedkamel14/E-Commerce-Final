@@ -23,8 +23,7 @@ export default function Footer() {
         </h1>
 
           <p className="text-sm leading-relaxed">
-            Your one-stop destination for the latest fashion, tech,
-            and lifestyle trends. Quality guaranteed with fast delivery.
+            Your one-stop destination for the latest technology, fashion, and lifestyle products. Quality guaranteed with fast shipping and excellent customer service
           </p>
 
           <div className="space-y-2 text-sm">
