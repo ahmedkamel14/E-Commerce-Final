@@ -1,0 +1,52 @@
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
+import Navbar from "./_components/Navbar/Navbar";
+import Footer from "./_components/Footer/Footer";
+import { Toaster } from "react-hot-toast";
+import Providers from "./providers/react-query-provider";
+import NextauthProvider from "./providers/NextauthProvider";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
+
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
+  subsets: ["latin"],
+});
+
+export const metadata: Metadata = {
+  title: "ShopMart",
+  description: "E-commerce app built with Next.js",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+return (
+  <html lang="en">
+
+    <body 
+      className={`${geistSans.variable} ${geistMono.variable} antialiased`} 
+      suppressHydrationWarning
+    >
+      <Providers>
+
+    <NextauthProvider>
+    <Navbar/>
+      <div className="container mx-auto  min-h-screen  mt-12 p-3">
+        <Toaster/>
+       
+        {children} 
+      </div>
+   <Footer/>
+    </NextauthProvider>
+      </Providers>  
+    </body>
+  </html>
+);
+}
